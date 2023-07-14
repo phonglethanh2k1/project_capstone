@@ -1,0 +1,423 @@
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.navbar-expand-lg .navbar-toggler {
+    display: block;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.nav-search {
+    margin-left: -35px;
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none
+}
+
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+    margin: auto;
+}
+
+.modal-menu {
+    list-style: none;
+}
+
+.modal-menu-item {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all ease-in-out 0.3s;
+}
+
+.modal-menu-item:hover {
+    color: #ff6600;
+    cursor: pointer;
+}
+
+.fade {
+    opacity: 1;
+}
+
+.modal-open .modal {
+    background: rgb(6 3 0 / 70%);
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.close {
+    position: absolute;
+    overflow: hidden;
+}
+
+button.close {
+    width: 40px;
+    height: 40px;
+    right: 40px;
+    top: 40px;
+    background: #ff6600;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    opacity: 1;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+/* start banner */
+.banner {
+    background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+        url('https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+    min-height: 700px;
+    height: 700px;
+    display: grid;
+    align-items: center;
+}
+
+.banner-info {
+    max-width: 600px;
+    text-align: left;
+}
+
+.banner-title {
+    font-size: 54px;
+    color: #fff;
+    line-height: 64px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.banner-desc {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn-white {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    transition: ease-in-out 0.3s;
+}
+
+.btn-white:hover {
+    background: #fff;
+    color: #ff6600;
+    transition: 0.5s all;
+}
+
+/* end banner */
+
+/* section one  */
+.title-subhny {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #ff6600;
+    display: block;
+    font-family: 'Pacifico', cursive;
+}
+
+.title {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.text-desc {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* end section one  */
+/* section two  */
+.section-two {
+    background-color: #ff6600;
+}
+
+.agent-block-image {
+    background: url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    min-height: 600px;
+}
+
+.agent-block-image::before {
+    content: "";
+    background: rgb(16 15 19 / 46%);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.two {
+    color: #fff;
+}
+
+.title-two {
+    color: black;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.text-desc-two {
+    color: #fff;
+    font-size: 18px;
+}
+
+.subscribe-cat-gd .icon {
+    background-color: #fff;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background: #fff;
+    line-height: 70px;
+    border-radius: 10px;
+}
+
+.icon-like {
+    color: #ff6600;
+    font-size: 25px;
+    line-height: 70px;
+    transition: all 0.3s ease-in-out;
+}
+
+.subscribe-cat-gd .icon-like:hover {
+    color: #fcb900;
+}
+
+.subscribe-cat-link {
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.subscribe-desc {
+    font-size: 18px;
+    color: #ffdfc9;
+}
+
+/* end section two  */
+/* start section three  */
+.section-three {
+    background-color: #f7f7f7;
+}
+
+.gal-slide-img {
+    position: relative;
+}
+
+.gal-slide-img img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.gal-slide-img:after {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    content: " ";
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.53) 69%, rgba(0, 0, 0, 0.76) 100%);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    border-radius: 6px;
+}
+
+.gal-slide-info {
+    opacity: 1;
+    left: auto;
+    bottom: 0;
+    width: 95%;
+    padding: 0 10px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    transform: translate3d(0, 10%, 0);
+    transition: opacity 0.3s;
+}
+
+.gal-slide-info-text {
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.gal-slide-info-price {
+    font-weight: 600;
+    color: #fcb900;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* end section three  */
+.box-wrap {
+    padding: 40px 40px;
+    transition: all 0.5s ease 0s;
+    border-radius: 8px;
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+.box-wrap-header {
+    display: flex;
+    align-items: center;
+}
+
+.box-wrap-header-icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background: rgba(130, 115, 252, 0.05);
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+    margin-right: 30px;
+}
+
+.box-wrap-header-info-link {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: block;
+    color: #232121;
+}
+
+.icon-box {
+    color: #ff6600;
+    font-size: 25px;
+    line-height: 70px;
+    width: 100%;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+    transition: 0.3s ease-in-out;
+}
+
+.icon-box:hover {
+    color: #fff;
+    background-color: #ff6600;
+    border-radius: 6px;
+}
+
+
+.section-five {
+    background: url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner2.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 488px;
+}
+
+.section-five::before {
+    content: "";
+    background: rgb(16 15 19 / 66%);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.welcome-left {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.welcome-left h3 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #fff;
+    max-width: 800px;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    border: 2px solid #ff6600;
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff6600;
+    border: 2px solid #ff6600;
+    opacity: 0.8;
+}
